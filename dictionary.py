@@ -10,3 +10,6 @@ for key, value in oer.items():
     print (f"OER Marks of {key} is {value} ")
 print (sorted (oer.items()))  
 print (sorted (oer))
+l = list (enumerate(oer.items()))
+for x,y in l:
+    print (f"{x} {y}")
